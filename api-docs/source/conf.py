@@ -184,6 +184,8 @@ def write_summary_table(output, header, members):
 
 def setup(app):
 	app.add_css_file('css/other.css')
+	app.add_css_file('css/sidebar_toggle.css')
+	app.add_js_file('js/sidebar_toggle.js')
 	app.is_parallel_allowed('write')
 
 def generaterst():
